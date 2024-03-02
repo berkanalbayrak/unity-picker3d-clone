@@ -2,4 +2,6 @@
 {
     public interface IEvent {}
     
+    public struct FinishLineTriggeredEvent : IEvent {}
+    
 }
